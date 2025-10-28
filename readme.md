@@ -5,4 +5,4 @@
 # Установка
 
 1. Установите расширение **[Tampermonkey](https://www.tampermonkey.net/index.php)**
-2. **[«Установите Скрипт»](./codeforcesfix.user.js)**
+2. **[«Установите Скрипт»](https://github.com/nasOS-official/codeforces-fix/raw/refs/heads/main/codeforcesfix.user.js)**
