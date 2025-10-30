@@ -1,0 +1,24 @@
+{
+  "name": "Codeforces fix (Fork)",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Исправление проблем с codeforces.",
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["https://developer.chrome.com/"]
+}

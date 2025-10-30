@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "://codeforces.com/codeforces.org"
+      }
+    },
+    "condition": {
+      "urlFilter": "://codeforces.org",
+      "resourceTypes": ["stylesheet", "script", "image"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "://codeforces.com/userpic.codeforces.org"
+      }
+    },
+    "condition": {
+      "urlFilter": "://userpic.codeforces.org",
+      "resourceTypes": ["stylesheet", "script", "image"]
+    }
+  }
+]

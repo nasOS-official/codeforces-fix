@@ -1,8 +1,3 @@
 # Codeforces Fix
 
-Форк https://github.com/Mrksist/kf-redirect-ext с поддержкой современных браузеров.
-
-# Установка
-
-1. Установите расширение **[Tampermonkey](https://www.tampermonkey.net/index.php)**
-2. **[«Установите Скрипт»](https://github.com/nasOS-official/codeforces-fix/raw/refs/heads/main/codeforcesfix.user.js)**
+Форк https://github.com/Mrksist/kf-redirect-ext с поддержкой современных версий chrome.
